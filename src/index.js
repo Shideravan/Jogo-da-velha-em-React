@@ -6,6 +6,25 @@
 // 5. Quando alguém ganhar, destaque os 3 quadrados que causaram a vitória.
 // 6. Quando ninguém ganhar, exiba uma mensagem informando que o resultado foi um empate.
 
+//LINHAS:
+//012 - primeira, 345 - segunda, 678 - terceira
+
+//COLUNA:
+//036 - Primeira, 147 - Segunda, 258 - Terceira
+
+// Squares  (Linha, Coluna):
+// 0 -> (1, 1)
+// 1 -> (1, 2)
+// 2 -> (1, 3)
+
+// 3 -> (2, 1)
+// 4 -> (2, 2)
+// 5 -> (2, 3)
+
+// 6 -> (3, 1)
+// 7- > (3, 2)
+// 8 -> (3, 3)
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -61,12 +80,14 @@ class Game extends React.Component {
         },
       ],
       stepNumber: 0,
+      rowNumber: 0,
+      colNumber: 0,
       xIsNext: true,
     };
   }
 
   handleClick(i) {
-    const history = this.state.history.slice(0, this.state.stepNumber + 1);
+    const history = this.state.history.slice(0, this.state.stepNumber + 1); // aqui que será mostrada a coluna e linha
     const current = history[history.length - 1];
     const squares = current.squares.slice();
     if (calculateWinner(squares) || squares[i]) {
@@ -97,7 +118,7 @@ class Game extends React.Component {
     const winner = calculateWinner(current.squares);
 
     const moves = history.map((step, move) => {
-      const desc = move ? 'Go to move #' + move : 'Go to game start';
+      let desc = move ? 'Movimento nº ' + move : 'Reinício';
       return (
         <li key={move}>
           <button onClick={() => this.jumpTo(move)}>{desc}</button>
