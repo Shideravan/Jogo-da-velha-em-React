@@ -1,3 +1,7 @@
+//José Marcio Rezende Franco
+//Thais de Luca Vahia de Abreu
+
+
 // MELHORIAS FUTURAS
 // 1. Mostrar a localização de cada jogada no formato (col,row), para cada jogada no histórico.
 // 2. Estilizar com negrito o item da lista de jogadas que está selecionado no momento.
