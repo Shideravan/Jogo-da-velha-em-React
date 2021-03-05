@@ -3,7 +3,7 @@
 Baseado na proposta do próprio site oficial do React.js (https://reactjs.org/), implementando diversas novas features.
 Realizando as propostas sugeridas como desafio e indo além, com intenção de treinar pair programming.\
 
-##Autores
+## Autores
 
 José Marcio Rezende Franco\
 Thais de Luca Vahia de Abreu\
@@ -20,15 +20,15 @@ Thais de Luca Vahia de Abreu\
 5. Quando alguém ganhar, destaque os 3 quadrados que causaram a vitória.
 6. Quando ninguém ganhar, exiba uma mensagem informando que o resultado foi um empate.
 
-## LINHAS:\
+## LINHAS:
 
 012 - primeira, 345 - segunda, 678 - terceira\
 
-## COLUNA:\
+## COLUNA:
 
 036 - Primeira, 147 - Segunda, 258 - Terceira\
 
-## Squares (Linha, Coluna):\
+## Squares (Linha, Coluna):
 
 0 -> (1, 1)\
 1 -> (1, 2)\
@@ -40,7 +40,7 @@ Thais de Luca Vahia de Abreu\
 
 6 -> (3, 1)\
 7 -> (3, 2)\
-8 -> (3, 3)\
+8 -> (3, 3)
 
 # Getting Started with Create React App
 
