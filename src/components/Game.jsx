@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Board from './Board.jsx';
 
 class Game extends React.Component {
   constructor(props) {
