@@ -1,4 +1,4 @@
-#Jogo da Velha em React
+# Jogo da Velha em React
 
 Baseado na proposta do próprio site oficial do React.js (https://reactjs.org/), implementando diversas novas features.
 Realizando as propostas sugeridas como desafio e indo além, com intenção de treinar pair programming.
