@@ -1,11 +1,12 @@
 # Jogo da Velha em React
 
 Baseado na proposta do próprio site oficial do React.js (https://reactjs.org/), implementando diversas novas features.
-Realizando as propostas sugeridas como desafio e indo além, com intenção de treinar pair programming.
+Realizando as propostas sugeridas como desafio e indo além, com intenção de treinar pair programming.\
 
 ##Autores
-.José Marcio Rezende Franco
-.Thais de Luca Vahia de Abreu
+
+José Marcio Rezende Franco\
+Thais de Luca Vahia de Abreu\
 
 (com base no projeto em https://reactjs.org/)
 
@@ -19,24 +20,27 @@ Realizando as propostas sugeridas como desafio e indo além, com intenção de t
 5. Quando alguém ganhar, destaque os 3 quadrados que causaram a vitória.
 6. Quando ninguém ganhar, exiba uma mensagem informando que o resultado foi um empate.
 
-//LINHAS:
-//012 - primeira, 345 - segunda, 678 - terceira
+## LINHAS:\
 
-//COLUNA:
-//036 - Primeira, 147 - Segunda, 258 - Terceira
+012 - primeira, 345 - segunda, 678 - terceira\
 
-Squares (Linha, Coluna):
-// 0 -> (1, 1)
-// 1 -> (1, 2)
-// 2 -> (1, 3)
+## COLUNA:\
 
-// 3 -> (2, 1)
-// 4 -> (2, 2)
-// 5 -> (2, 3)
+036 - Primeira, 147 - Segunda, 258 - Terceira\
 
-// 6 -> (3, 1)
-// 7- > (3, 2)
-// 8 -> (3, 3)
+## Squares (Linha, Coluna):\
+
+0 -> (1, 1)\
+1 -> (1, 2)\
+2 -> (1, 3)\
+
+3 -> (2, 1)\
+4 -> (2, 2)\
+5 -> (2, 3)\
+
+6 -> (3, 1)\
+7 -> (3, 2)\
+8 -> (3, 3)\
 
 # Getting Started with Create React App
 
