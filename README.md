@@ -4,8 +4,8 @@ Baseado na proposta do próprio site oficial do React.js (https://reactjs.org/),
 Realizando as propostas sugeridas como desafio e indo além, com intenção de treinar pair programming.
 
 ##Autores
-José Marcio Rezende Franco
-Thais de Luca Vahia de Abreu
+.José Marcio Rezende Franco
+.Thais de Luca Vahia de Abreu
 
 (com base no projeto em https://reactjs.org/)
 
@@ -25,7 +25,7 @@ Thais de Luca Vahia de Abreu
 //COLUNA:
 //036 - Primeira, 147 - Segunda, 258 - Terceira
 
-// Squares (Linha, Coluna):
+Squares (Linha, Coluna):
 // 0 -> (1, 1)
 // 1 -> (1, 2)
 // 2 -> (1, 3)
