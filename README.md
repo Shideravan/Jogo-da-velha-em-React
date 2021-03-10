@@ -12,8 +12,8 @@ Thais de Luca Vahia de Abreu
 
 ## MELHORIAS FUTURAS (TODO)
 
-0. Modularizar em arquivos diferentes.
-1. Mostrar a localização de cada jogada no formato (col,row), para cada jogada no histórico.
+0. Modularizar em arquivos diferentes. OK!
+1. Mostrar a localização de cada jogada no formato (col,row), para cada jogada no histórico. OK!
 2. Estilizar com negrito o item da lista de jogadas que está selecionado no momento.
 3. Reescrever o componente Board para utilizar 2 loops para fazer os quadrados, em vez de deixá-los hardcoded.
 4. Adicionar um botão de toggle que lhe permita ordenar os jogadas em ordem ascendente ou descendente.

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Board from './Board.jsx';
 
 class Game extends React.Component {
+  linNumber = [];
+  colNumber = [];
   constructor(props) {
     super(props);
     this.state = {
@@ -10,15 +12,21 @@ class Game extends React.Component {
           squares: Array(9).fill(null),
         },
       ],
-      stepNumber: 0,
       xIsNext: true,
+      stepNumber: 0,
     };
   }
 
+  redistribuiPosicao(i) {
+    this.handleClick(i);
+    this.pegarLinha(i);
+    this.pegarColuna(i);
+  }
+
   pegarLinha(i) {
-    if (i === (0 || 3 || 6)) {
+    if ([0, 3, 6].includes(i)) {
       return 1;
-    } else if (i == (1 || 4 || 7)) {
+    } else if ([1, 4, 7].includes(i)) {
       return 2;
     } else {
       return 3;
@@ -26,9 +34,9 @@ class Game extends React.Component {
   }
 
   pegarColuna(i) {
-    if (i === (0 || 1 || 2)) {
+    if ([0, 1, 2].includes(i)) {
       return 1;
-    } else if (i == (3 || 4 || 5)) {
+    } else if ([3, 4, 5].includes(i)) {
       return 2;
     } else {
       return 3;
@@ -36,7 +44,7 @@ class Game extends React.Component {
   }
 
   handleClick(i) {
-    const history = this.state.history.slice(0, this.state.stepNumber + 1); // aqui que será mostrada a coluna e linha
+    const history = this.state.history.slice(0, this.state.stepNumber + 1);
     const current = history[history.length - 1];
     const squares = current.squares.slice();
     if (calculateWinner(squares) || squares[i]) {
@@ -51,8 +59,9 @@ class Game extends React.Component {
       ]),
       stepNumber: history.length,
       xIsNext: !this.state.xIsNext,
-      linNumber: this.pegarLinha,
     });
+    this.linNumber.push(this.pegarLinha(i));
+    this.colNumber.push(this.pegarColuna(i));
   }
 
   jumpTo(step) {
@@ -73,9 +82,9 @@ class Game extends React.Component {
           move +
           '. Jogador: ' +
           '. Posição (' +
-          this.xIsNext +
+          this.linNumber[move - 1] +
           ', ' +
-          this.xIsNext +
+          this.colNumber[move - 1] +
           ')'
         : 'Início';
       return (
@@ -97,11 +106,9 @@ class Game extends React.Component {
         <div className="game-board">
           <Board
             squares={current.squares}
-            onClick={
-              ((i) => this.handleClick(i),
-              this.pegarLinha(i),
-              this.pegarColuna(i))
-            }
+            onClick={(i) => {
+              this.redistribuiPosicao(i);
+            }}
           />
         </div>
         <div className="game-info">
