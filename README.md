@@ -10,15 +10,16 @@ Thais de Luca Vahia de Abreu
 
 (com base no projeto em https://reactjs.org/)
 
-## MELHORIAS FUTURAS (TODO)
+## MELHORIAS JÁ CONCLUÍDAS
+1. Modularizar em arquivos diferentes. OK!
+2. Mostrar a localização de cada jogada no formato (col,row), para cada jogada no histórico. OK!
+3. Estilizar com negrito o item da lista de jogadas que está selecionado no momento. OK!
 
-0. Modularizar em arquivos diferentes. OK!
-1. Mostrar a localização de cada jogada no formato (col,row), para cada jogada no histórico. OK!
-2. Estilizar com negrito o item da lista de jogadas que está selecionado no momento. OK!
-3. Reescrever o componente Board para utilizar 2 loops para fazer os quadrados, em vez de deixá-los hardcoded.
-4. Adicionar um botão de toggle que lhe permita ordenar os jogadas em ordem ascendente ou descendente.
-5. Quando alguém ganhar, destaque os 3 quadrados que causaram a vitória.
-6. Quando ninguém ganhar, exiba uma mensagem informando que o resultado foi um empate.
+## MELHORIAS FUTURAS (TODO)
+1. Reescrever o componente Board para utilizar 2 loops para fazer os quadrados, em vez de deixá-los hardcoded.
+2. Adicionar um botão de toggle que lhe permita ordenar os jogadas em ordem ascendente ou descendente.
+3. Quando alguém ganhar, destaque os 3 quadrados que causaram a vitória.
+4. Quando ninguém ganhar, exiba uma mensagem informando que o resultado foi um empate.
 
 ## LINHAS:
 
