@@ -10,7 +10,7 @@ Thais de Luca Vahia de Abreu
 
 (com base no projeto em https://reactjs.org/)
 
-## MELHORIAS JÁ CONCLUÍDAS
+## Melhorias já concluídas
 1. Modularizar em arquivos diferentes. OK!
 2. Mostrar a localização de cada jogada no formato (col,row), para cada jogada no histórico. OK!
 3. Estilizar com negrito o item da lista de jogadas que está selecionado no momento. OK!
