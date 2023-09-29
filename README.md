@@ -15,17 +15,17 @@ Thais de Luca Vahia de Abreu
 2. Mostrar a localização de cada jogada no formato (col,row), para cada jogada no histórico. OK!
 3. Estilizar com negrito o item da lista de jogadas que está selecionado no momento. OK!
 
-## MELHORIAS FUTURAS (TODO)
+## Melhorias futuras (TODO)
 1. Reescrever o componente Board para utilizar 2 loops para fazer os quadrados, em vez de deixá-los hardcoded.
 2. Adicionar um botão de toggle que lhe permita ordenar os jogadas em ordem ascendente ou descendente.
 3. Quando alguém ganhar, destaque os 3 quadrados que causaram a vitória.
 4. Quando ninguém ganhar, exiba uma mensagem informando que o resultado foi um empate.
 
-## LINHAS:
+## Linhas:
 
 012 - primeira, 345 - segunda, 678 - terceira
 
-## COLUNA:
+## Colunas:
 
 036 - Primeira, 147 - Segunda, 258 - Terceira
 
