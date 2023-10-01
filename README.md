@@ -15,7 +15,7 @@ Thais de Luca Vahia de Abreu
 2. Mostrar a localização de cada jogada no formato (col,row), para cada jogada no histórico. OK!
 3. Estilizar com negrito o item da lista de jogadas que está selecionado no momento. OK!
 
-## Melhorias futuras (TODO)
+## Melhorias futuras
 1. Reescrever o componente Board para utilizar 2 loops para fazer os quadrados, em vez de deixá-los hardcoded.
 2. Adicionar um botão de toggle que lhe permita ordenar os jogadas em ordem ascendente ou descendente.
 3. Quando alguém ganhar, destaque os 3 quadrados que causaram a vitória.
